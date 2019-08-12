@@ -25,7 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,31 +36,26 @@
 
     <div class="blue">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h2 class="blue ">ImmImmProfile</h2>
+          <h2 class="blue ">ImmImmProfile</h2>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input
-                        class="form-control mr-sm-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="homework.html">CSSspecificity</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-        </nav>
-    </div>
-
+          </nav>
+    </div> 
     <div
         data-scroll="1"
         class="aboutme-section sec-p100-bg-bs mb-0 clearfix blue "
@@ -91,7 +86,7 @@
                         <div class="personal-details-right">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="about_us_image mr=-50px">
-                                    <img src="body.jpg" width="300px" alt="">
+                                    <img src="./image/body.jpg" width="300px" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></a>
@@ -108,7 +103,7 @@
                     <div class="center black">
                         <i class="fab fa-css3-alt center"></i>CSS Specificity</div>
                             <p class="font-sizeh">css spaicificity <p class="font-thai">เป็นการระบุการใช้งานอย่างเฉพาะเจาะจง โดยเป็นการเลือกใช้ css selector ที่มี "ค่าพลัง" เยอะที่สุด ซึ่งปกติภาษา css จะอ่านโค้ดจากบนลงล่าง แสดงว่าถ้าเขียน css selector > 1 คำสั่ง คำสั่งล่างจะถูกนำไปใช้เพราะเป็นคำสั่งที่ใหม่กว่า แต่ละ selector จะมีความสำคัญ(ค่าพลัง)ที่ต่างกันออกไปซึ่งเราจะเปรียบเทียบให้ดูดังนี้</p></p> 
-                        </div><b class="font-sizeh ml-5">HTML:</b><p class="ml-5"><img src="html.jpg"></p><b class="font-sizeh ml-5">CSS:</b><p class="ml-5"><img src="css.jpg"></a></p><b class="font-sizeh ml-5">RESULT:</b><p class="ml-5"><img src="result.jpg"></p>
+                        </div><b class="font-sizeh ml-5">HTML:</b><p class="ml-5"><img src="./image/html.JPG"></p><b class="font-sizeh ml-5">CSS:</b><p class="ml-5"><img src="./image/css.JPG"></a></p><b class="font-sizeh ml-5">RESULT:</b><p class="ml-5"><img src="./image/result.JPG"></p>
                         <p class="font-thai">ที่ผลลัพธ์ออกมาเป็นกล่องสีแดงเนื่องจากว่าค่าความสำคัญของคำสั่งที่กำหนดให้ background เป็นสีแดงมีมากกว่าสีขาวจึงทำให้กล่องออกมาเป็นสีแดงโดยเราจะให้ความสำคัญ(ค่าพลัง)ตามนี้เพื่อให้เห็นภาพได้ง่าย</p> 
                         <p class="font-sizeh ml-5">1.
                                 <a class="font-thai">ถ้าเขียน CSS ใส่ใน style เลย (เช่น <b>a style="color: red"</b>) : +1000 คะแนน</a>
